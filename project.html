@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/project.css">
+    <title>My Projects</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Proje<span class="lio">cts</span></a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a class="project" href="project.html">Projects</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="https://github.com/ProTrickstar">GitHub</a></li>
+        </ul>
+    </header>
+    <section class="banner">
+        <h1>Explore my Projects</h1>
+        <h2>All available only here . . .</h2>
+        <button class="btn">Explore Projects</button>
+    </section>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>   
+</body>
+</html>

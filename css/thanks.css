@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.title h1
+{
+    position: absolute;
+    top: 27%;
+    left: 33.5%;
+    color: black;
+    font-size: 15vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.title h2
+{
+    position: absolute;
+    top: 45%;
+    left: 34.3%;
+    color: black;
+    font-size: 4vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.link h2
+{
+    position: absolute;
+    top: 55%;
+    left: 41.7%;
+    color: black;
+    font-size: 4vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.foot
+{
+    position: absolute;
+    top: 94%;
+    left: 29%;
+    color: black;
+    font-size: 4vh;
+    font-family: 'Ubuntu', sans-serif;
+}
